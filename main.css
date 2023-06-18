@@ -1,0 +1,72 @@
+html, body{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    text-align: center;
+    flex: 1 0 auto;
+    height: 100%;
+    justify-content: center;
+}
+.flex-row1{
+    background-color: rgb(238, 92, 39);
+    flex: 1 0 auto;
+}
+.flex-row2{
+    background-color: rgb(40, 126, 73);
+    flex: 1 0 auto;
+}
+.flex-row3{
+    background-color: rgb(218, 153, 32);
+    flex: 1 0 auto
+}
+.head{
+    color: white;
+}
+.body{
+    color: rgba(255, 255, 255, 0.651);
+    font-size: large;
+}
+.button1{
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: white;
+    background-color: rgb(238, 92, 39);
+    color: white;
+    width: 150px;
+    height: 30px;
+    cursor: cell;
+    font-size: medium;
+}
+.button2{
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: white;
+    background-color: rgb(40, 126, 73);
+    color: white;
+    width: 150px;
+    height: 30px;
+    cursor: cell;
+    font-size: medium;
+}
+.button3{
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: white;
+    background-color: rgb(233, 169, 50);
+    color: white;
+    width: 150px;
+    height: 30px;
+    cursor: cell;
+    font-size: medium;
+}
+@media screen and (max-width: 600px) {
+    .flex-row1 {
+        flex-direction: column;
+    }
+    .flex-row2 {
+        flex-direction: column;
+    }
+    .flex-row3 {
+        flex-direction: column;
+    }
+}  
