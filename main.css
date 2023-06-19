@@ -4,24 +4,24 @@ html, body{
     width: 100%;
     height: 100%;
 }
-.main-content{
+.content{
     display: flex;
     flex-direction: row;
     text-align: center;
     flex: 1 0 auto;
     justify-content: center;
 }
-.inner-content-a{
+.content-a{
     background-color: rgb(238, 92, 39);
     flex: 1 0 auto;
 }
-.inner-content-b{
+.content-b{
     background-color: rgb(40, 126, 73);
     flex: 1 0 auto;
 }
-.inner-content-c{
+.content-c{
     background-color: rgb(218, 153, 32);
-    flex: 1 0 auto
+    flex: 1 0 auto;
 }
 .head{
     color: white;
@@ -63,6 +63,12 @@ html, body{
     cursor: cell;
     font-size: medium;
 }
-@media screen and (max-width: 600px) {
-    .main-content {flex-direction: column;}
+
+@media screen and (max-width: 576px) {
+   body {
+    align-items: flex-start;
+}
+    .content {
+        flex-direction: column;
 } 
+}
