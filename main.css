@@ -71,4 +71,13 @@ html, body{
     .content {
         flex-direction: column;
 } 
+    .content-a {
+        padding-bottom: 8%;
+    }
+    .content-b {
+        padding-bottom: 8%;
+    }
+    .content-c {
+        padding-bottom: 8%;
+    }
 }
